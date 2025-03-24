@@ -1,0 +1,45 @@
+# Diretórios de build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]eploy/
+
+# Diretórios de dependências
+/packages/
+
+# Arquivos de configuração do Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Arquivos temporários do Visual Studio
+# User-specific files
+.vsconfig
+.vscode/
+
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos de usuário
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Arquivos de backup e log
+*.bak
+*.log
+
+# Arquivos de pacotes
+*.nupkg
+
+# Arquivos de segurança
+*.pdb
+*.dll
+*.exe
+
+# Arquivos do ASP.NET
+project.lock.json
+project.fragment.lock.json
