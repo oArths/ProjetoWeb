@@ -1,2 +1,2 @@
 # ProjetoWeb
-projeto web para a aula de desenvolvimento erb
+projeto web para a aula de desenvolvimento web
