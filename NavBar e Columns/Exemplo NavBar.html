@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Navbar com Busca</title>
+		<!-- Adicione os links para o Bootstrap CSS e jQuery -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<!-- Adicione o link para a biblioteca Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Meu Site</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+					</li>
+				</ul>
+				<div class="search-box">
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0 search-icon btn-search" type="submit" id="search-button">
+							<i class="fas fa-hourglass-start"></i> <!-- Ícone da ampulheta -->
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<h1>Exemplo de Colunas no Bootstrap</h1>
+
+			Exemplo de coluna padrão
+			<div class="row">
+				<div class="col">
+					<div class="bg-primary text-white">Coluna Padrão (12 colunas)</div>
+				</div>
+			</div>
+
+			Exemplo de coluna com largura personalizada
+			<div class="row">
+				<div class="col-6">
+					<div class="bg-secondary text-white">Coluna com Largura 6</div>
+				</div>
+				<div class="col-6">
+					<div class="bg-secondary text-white">Coluna com Largura 6</div>
+				</div>
+			</div>
+
+			Exemplo de coluna responsiva
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="bg-success text-white">Coluna (Sm: 4)</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="bg-success text-white">Coluna (Sm: 8)</div>
+				</div>
+			</div>
+
+			Exemplo de coluna empilhada em telas pequenas
+			<div class="row">
+				<div class="col-md-6">
+					<div class="bg-warning text-dark">Coluna (Md: 6)</div>
+				</div>
+				<div class="col-md-6">
+					<div class="bg-warning text-dark">Coluna (Md: 6)</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="bg-warning text-dark">Coluna Empilhada em Telas Pequenas</div>
+				</div>
+			</div>
+
+			Exemplo de colunas em dispositivos diferentes
+			<div class="row">
+				<div class="col-md-3 col-lg-2">
+					<div class="bg-info text-white">Coluna (Md: 3, Lg: 2)</div>
+				</div>
+				<div class="col-md-6 col-lg-8">
+					<div class="bg-info text-white">Coluna (Md: 6, Lg: 8)</div>
+				</div>
+				<div class="col-md-3 col-lg-2">
+					<div class="bg-info text-white">Coluna (Md: 3, Lg: 2)</div>
+				</div>
+			</div>
+		</div>
+		<br	/>
+		<br	/>
+		<br	/>
+		<br	/>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores similique aliquam sequi aut earum esse debitis architecto. Expedita soluta pariatur qui eligendi inventore repellendus, placeat ex distinctio veritatis?
+		</p>
+		<p>
+			Fim da Página
+		</p>
+
+		<div class="container mt-5">
+			<!-- Botão para abrir o modal -->
+			<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#myModal">
+				Abrir Modal Simples
+			</button>
+			
+			<!-- O Modal Simples -->
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Cabeçalho do Modal -->
+					<div class="modal-header">
+					<h4 class="modal-title">Título do Modal</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<!-- Corpo do Modal -->
+					<div class="modal-body">
+					<p>Conteúdo do Modal vai aqui.</p>
+					</div>
+					<!-- Rodapé do Modal -->
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+					<button type="button" class="btn btn-primary">Salvar</button>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<!-- Botão para exibir o alerta de aviso -->
+			<button type="button" class="btn btn-warning mb-2" data-toggle="alert">
+				Exibir Alerta de Aviso
+			</button>
+			<!-- Alerta de Aviso -->
+			<div class="alert alert-warning alert-dismissible fade" role="alert">
+				<strong>Aviso!</strong> Este é um alerta de aviso.
+				<button type="button" class="close" data-dismiss="alert" aria-label="Fechar">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		</div>
+		  
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="funcoes.js"></script>
+	</body>
+</html>

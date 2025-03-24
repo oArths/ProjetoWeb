@@ -1,0 +1,19 @@
+.search-box {
+    position: relative;
+}
+
+.search-box input[type="text"] {
+    padding-right: 0px; /* Espa�o para o �cone */
+}
+
+.search-icon {
+    position: absolute;
+    right: 6px;
+    top: 0px;
+}
+
+.highlighted {
+    color: red; /* Cor da fonte vermelha */
+    background-color: yellow; /* Fundo amarelo */
+}
+
